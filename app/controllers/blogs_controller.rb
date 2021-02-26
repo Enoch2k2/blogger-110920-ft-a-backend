@@ -33,6 +33,7 @@ class BlogsController < ApplicationController
     end
   end
 
+  # this is a comment
   # DELETE /blogs/1
   def destroy
     @blog.destroy
